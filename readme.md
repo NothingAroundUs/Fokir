@@ -30,12 +30,12 @@ This repository contains the source code for a personal portfolio website for Al
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/portfolio.git
+    git clone https://github.com/NothingAroundUs/Fokir.git
     ```
 
 2. Navigate into the project directory:
     ```bash
-    cd portfolio
+    cd Fokir
     ```
 
 3. Open `index.html` in your preferred web browser:
