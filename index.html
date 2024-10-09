@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Fokir</div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#Testimonial">Testimonial</a></li>
+            <li><a href="#Blog">Blog</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <div class="close-btn" onclick="toggleMenu()">&#10005;</div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="content">
+            <p>Hello I'm</p>
+            <h1>ALEX SMITH</h1>
+            <p>Professional Web Developer</p>
+        </div>
+    </section>
+
+    <section class="profile" id="about">
+        <div class="profile-image">
+            <div class="fl">
+                <img src="img/work-7.jpg" alt="Profile Picture" width="390px" class="pfimg">
+                <div class="layer">
+                    <a href="#"><span class="fa fa-facebook"></span></a>
+                    <a href="#"><span class="fa fa-twitter"></span></a>
+                    <a href="#"><span class="fa fa-google"></span></a>
+                    <a href="#"><span class="fa fa-github"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="profile-details">
+            <h2>HELLO,</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+
+            <div class="profile-info">
+                <div>
+                    <span>Name:</span> Alex Smith<br>
+                    <span>Age:</span> 26 Years<br>
+                    <span>Freelance:</span> Available
+                </div>
+                <div>
+                    <span>Job Title:</span> Web Developer<br>
+                    <span>Location:</span> United States, US<br>
+                    <span>E-mail:</span> example@gmail.com
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button class="download-cv">Download CV</button>
+                <button class="hire-me">Hire Me</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="service">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <div class="service-item">
+                <span class="material-icons">design_services</span>
+                <h3>UI/UX Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis
+                    necessitatibus.</p>
+            </div>
+            <div class="service-item">
+                <span class="material-icons">code</span>
+                <h3>App Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis
+                    necessitatibus.</p>
+            </div>
+            <div class="service-item">
+                <span class="material-icons">widgets</span>
+                <h3>Product Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis
+                    necessitatibus.</p>
+            </div>
+            <div class="service-item">
+                <span class="material-icons">design_services</span>
+                <h3>UI/UX Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis
+                    necessitatibus.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2>Our Portfolio</h2>
+        <div class="portfolio-filters">
+            <span class="filter active">All</span>
+            <span class="filter">Graphic</span>
+            <span class="filter">Web Design</span>
+            <span class="filter">Branding</span>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="img/1.jpg" alt="Portfolio item 1">
+            </div>
+            <div class="portfolio-item">
+                <img src="img/2.jpg" alt="Portfolio item 2">
+            </div>
+            <div class="portfolio-item">
+                <img src="img/3.jpg" alt="Portfolio item 3">
+            </div>
+            <div class="portfolio-item">
+                <img src="img/4.jpg" alt="Portfolio item 4">
+            </div>
+            <div class="portfolio-item">
+                <img src="img/5.jpg" alt="Portfolio item 5">
+            </div>
+            <div class="portfolio-item">
+                <img src="img/6.jpg" alt="Portfolio item 6">
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stat-item">
+            <span class="material-icons">group</span>
+            <h3>200</h3>
+            <p>Team members</p>
+        </div>
+        <div class="stat-item">
+            <span class="material-icons">description</span>
+            <h3>345</h3>
+            <p>Complete Projects</p>
+        </div>
+        <div class="stat-item">
+            <span class="material-icons">cloud_download</span>
+            <h3>1800</h3>
+            <p>Files Downloaded</p>
+        </div>
+        <div class="stat-item">
+            <span class="material-icons">coffee</span>
+            <h3>1200</h3>
+            <p>Lines of Code</p>
+        </div>
+    </section>
+
+    <section class="client-feedback" id="Testimonial">
+        <h2>Client's Feedback</h2>
+        <div class="feedback-card">
+            <div class="feedback-header">
+                <div class="client-image">
+                    <img src="img/2-2.jpg" alt="Client Image">
+                </div>
+                <div class="client-info">
+                    <h3>Alex ander</h3>
+                    <p class="location">
+                        <span class="material-icons">location_on</span> United
+                    </p>
+                </div>
+            </div>
+            <p class="feedback-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus ex magni sunt,
+                architecto vel dolore, laudantium dignissimos debitis optio! Exercitationem adipisicing elit.
+            </p>
+            <div class="feedback-rating">
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star_half</span>
+            </div>
+        </div>
+        <div class="feedback-pagination">
+            <span class="material-icons active">radio_button_checked</span>
+            <span class="material-icons">radio_button_unchecked</span>
+        </div>
+    </section>
+
+    <section class="blog-section">
+        <h2>Our Blog</h2>
+        <div class="blog-cards">
+            <div class="blog-card">
+                <img src="img/1-1.jpg" alt="Web Design Blog Post Image">
+                <div class="blog-info">
+                    <p class="blog-date">23 November, 2015</p>
+                    <h3>Web Design Blog Post</h3>
+                    <p class="blog-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea,
+                        quis magnam deserunt eius incidunt repellat molestiae.</p>
+                    <a href="#" class="blog-readmore">READ MORE ➞</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="video-wrapper">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uVju5--RqtY?si=2-Awn5M77YO9PtLB"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="blog-info">
+                    <p class="blog-date">20 April, 2018</p>
+                    <h3>Development Blog Post</h3>
+                    <p class="blog-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea,
+                        quis magnam deserunt eius incidunt repellat molestiae.</p>
+                    <a href="#" class="blog-readmore">READ MORE ➞</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <img src="img/3-1.jpg" alt="Full Width Blog Post Image">
+                <div class="blog-info">
+                    <p class="blog-date">17 May, 2017</p>
+                    <h3>Full Width Blog Post</h3>
+                    <p class="blog-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea,
+                        quis magnam deserunt eius incidunt repellat molestiae.</p>
+                    <a href="#" class="blog-readmore">READ MORE ➞</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="Contact">
+        <h2>Contact Us</h2>
+        <div class="underline"></div>
+        <form class="contact-form">
+            <div class="input-group">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+            </div>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Message for me" required></textarea>
+            <button type="submit" class="contact-submit">SEND MESSAGE</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="#"><span class="fa fa-twitter"></span></a>
+            <a href="#"><span class="fa fa-google"></span></a>
+            <a href="#"><span class="fa fa-github"></span></a>
+        </div>
+        <p>Copy Right 2018 © By <span class="highlight">Theme-fair</span> All Rights Reserved</p>
+    </footer>
+
+</body>
+
+<script>
+    function toggleMenu() {
+        const menuIcon = document.querySelector('.menu-icon');
+        const navLinks = document.querySelector('.nav-links');
+        const closeButton = document.querySelector('.close-btn');
+
+        menuIcon.classList.toggle('active');
+        navLinks.classList.toggle('active');
+    }
+</script>
+<!-- I took a course previously on some basic web development which is how i made the js -->
+
+</html>
