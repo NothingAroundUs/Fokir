@@ -1,4 +1,4 @@
-# Portfolio Website
+# "Fokir" Portfolio Website
 
 This repository contains the source code for a personal portfolio website for Alex Smith, a professional web developer. The website is fully responsive and includes sections for services, portfolio, testimonials, blog, and contact details. It uses HTML, CSS, and basic JavaScript for navigation and interactivity.
 
